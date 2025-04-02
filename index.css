@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form Container */
+#registrationForm {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input {
+    width: calc(100% - 16px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+/* Error Messages */
+.error {
+    color: #ff4d4d;
+    font-size: 0.85em;
+    margin-top: 2px;
+    display: block;
+    text-align: left;
+}
+
+/* Button Styles */
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Success Message */
+#successMessage {
+    margin-top: 15px;
+    font-size: 1em;
+    font-weight: bold;
+}

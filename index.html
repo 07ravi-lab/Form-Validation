@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <style>
+        .error { color: red; font-size: 0.9em; }
+        input { margin: 5px 0; padding: 8px; width: 100%; }
+    </style>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form id="registrationForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter username">
+        <span id="usernameError" class="error"></span>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email">
+        <span id="emailError" class="error"></span>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter password">
+        <span id="passwordError" class="error"></span>
+        
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" placeholder="Confirm password">
+        <span id="confirmPasswordError" class="error"></span>
+        
+        <button type="submit" id="submitBtn">Register</button>
+        <div id="successMessage" style="color: green;"></div>
+    </form>
+    <script href="index.js"></script>
+</body>
+</html>
